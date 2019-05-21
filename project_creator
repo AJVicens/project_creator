@@ -1,11 +1,16 @@
 #!/bin/bash
 
+# fill in the name of your project
 echo Project name?
 
+# assigns that name to a variable used to create the parent directory and all of the rest
 read project_name
 
+# creates subdirectories
 mkdir -pv $project_name/documents $project_name/interviews/audio $project_name/data/originals $project_name/images/originals $project_name/images/edited
 
+# creates non-directory files within the overall proect
 touch $project_name/interviews/list_of_interviews.txt $project_name/questions.txt $project_name/data/data-diary.txt $project_name/notes.txt
 
+# let's you know that you're good to go
 echo Project $project_name is ready to go!

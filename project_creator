@@ -12,7 +12,7 @@ read project_name
 mkdir -pv $project_name/documents $project_name/interviews/audio $project_name/data/originals $project_name/images/originals $project_name/images/edited
 
 # creates non-directory files within the overall proect
-touch $project_name/interviews/list_of_interviews.txt $project_name/questions.txt $project_name/data/data-diary.txt $project_name/notes.txt $project_name/chron.txt
+touch $project_name/interviews/list_of_interviews.txt $project_name/questions.txt $project_name/data/data-diary.txt $project_name/notesss.txt $project_name/chron.txt
 
 # let's you know that you're good to go
 echo Project $project_name is ready to go!

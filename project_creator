@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo Project name?
+
+read project_name
+
+mkdir -pv $project_name/documents $project_name/interviews/audio $project_name/data/originals $project_name/images/originals $project_name/images/edited
+
+touch $project_name/interviews/list_of_interviews.txt $project_name/questions.txt $project_name/data/data-diary.txt $project_name/notes.txt
+
+echo Project $project_name is ready to go!
